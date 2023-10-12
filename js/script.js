@@ -8,14 +8,14 @@ if(toggle) {
     toggle.addEventListener ('click', () => {
         navbar.classList.toggle('show');
         toggle.classList.toggle('show');
-    })
+    });
 }
 
 if(navbar) {
     navbar.addEventListener ('click', () => {
         navbar.classList.remove('show');
         toggle.classList.remove('show');
-    })
+    });
 }
 
 window.addEventListener('scroll', () => {
@@ -30,6 +30,6 @@ window.addEventListener('scroll', () => {
         }
     }
     
-})
+});
 
 console.log (window);
